@@ -1,0 +1,32 @@
+ARInteractive/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── ar_engine.py
+│   ├── object_detection.py
+│   ├── user_interface.py
+│   └── utils.py
+├── assets/
+│   ├── models/
+│   ├── textures/
+│   └── sounds/
+├── config/
+│   └── config.yaml
+├── scripts/
+│   ├── run_ar_app.py
+│   └── update_assets.py
+├── tests/
+│   ├── test_ar_engine.py
+│   ├── test_object_detection.py
+│   ├── test_user_interface.py
+│   └── test_utils.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
